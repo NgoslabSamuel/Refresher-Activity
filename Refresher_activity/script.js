@@ -13,3 +13,7 @@ document.getElementById("contactForm").addEventListener("submit", function(event
   alert("Thank you for your message, " + name + "!");
   this.reset();
 });
+
+document.getElementById("darkModeToggle").addEventListener("click", () => {
+  document.body.classList.toggle("dark-mode");
+});
